@@ -1,0 +1,12 @@
+.exercici {
+  border: 1px solid black;
+  margin: 100px;
+}
+
+.quadrat {
+  list-style-type: square;
+}
+
+.cercle-buit {
+  list-style-type: circle;
+}

@@ -21,10 +21,14 @@ p {
   background-color: rgba(128, 128, 128, 0.25);
 }
 
-.biografia {
+.gris {
   margin-top: 3%;
   background-color: rgba(128, 128, 128, 0.5);
   color: rgba(245, 245, 245, 0.7);
+}
+
+.reconeixements {
+  margin-bottom: 3%;
 }
 
 h5 {
@@ -47,4 +51,22 @@ span {
 .lletra-blava {
   color: blue;
   text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+footer div {
+  width: 95%;
+  background-color: rgba(236, 236, 236, 1);
+  margin-top: 2%;
+  text-align: right;
+}
+
+footer p {
+  margin: 0;
+  background-color: transparent;
 }

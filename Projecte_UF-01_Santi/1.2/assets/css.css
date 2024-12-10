@@ -8,6 +8,16 @@
   src: url(Pacifico-Regular.ttf);
 }
 
+@font-face {
+  font-family: "MrDafoe";
+  src: url(MrDafoe-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Kalam";
+  src: url(Kalam-Regular.ttf);
+}
+
 html,
 body {
   height: 100%;
@@ -49,7 +59,7 @@ header span {
 }
 
 header div {
-  width: 50%;
+  width: 35%;
 }
 
 h1 span {
@@ -63,6 +73,39 @@ header p {
   font-size: 0.8rem;
 }
 
-main p {
+main .dalt {
   font-family: "Pacifico";
+}
+
+main .fila-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.centre {
+  text-align: right;
+  color: white;
+}
+
+.baix {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main > div {
+  width: 50%;
+}
+
+.baix {
+  color: grey;
+  font-family: "MrDafoe";
+  font-weight: bold;
+}
+
+.centre {
+  font-family: "Kalam";
 }

@@ -3,6 +3,11 @@
   src: url(Starjedi.ttf);
 }
 
+@font-face {
+  font-family: "Pacifico";
+  src: url(Pacifico-Regular.ttf);
+}
+
 html,
 body {
   height: 100%;
@@ -54,6 +59,10 @@ h1 span {
 }
 
 header p {
-    text-align: left;
-    font-size: 0.8rem;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+main p {
+  font-family: "Pacifico";
 }

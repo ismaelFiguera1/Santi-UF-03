@@ -1,0 +1,81 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(../Imatges/imatges_cases/fons_aigua.jpg);
+  border: thin solid transparent;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body > * {
+  flex: 1;
+  margin: 2%;
+}
+
+.primer {
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.primer > * {
+  margin: 1%;
+}
+
+.segon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  border: medium solid black;
+}
+
+.segon-primer {
+  width: 70%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.segon-primer img {
+  width: 100%;
+}
+
+.segon-segon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.segon-segon > * {
+  flex: 1;
+}
+
+.segon-segon > section {
+  display: flex;
+  height: 40%;
+}
+
+.segon-segon > section div {
+  flex: 1;
+  text-align: center;
+}
+
+.segon-segon > section img {
+  max-height: 100%;
+}
+
+.segon-segon > article img {
+  max-height: 100%;
+}

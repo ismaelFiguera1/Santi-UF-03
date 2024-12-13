@@ -2,8 +2,11 @@ html,
 body {
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-image: url(../Imatges/imatges_cases/fons_aigua.jpg);
+  overflow: hidden;
 }
 
 nav {
@@ -32,4 +35,32 @@ nav img {
 .meitat {
   width: 40%;
   margin: auto;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.gradient {
+  height: 3%;
+  width: 70%;
+  margin: auto;
+  background-image: url(../Imatges/imatges_cases/lin_animada.gif);
+  margin-bottom: 7%;
+}
+
+footer {
+  margin: 10%;
+  margin-bottom: 5%;
+}
+
+header {
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 7%;
+  margin-top: 1%;
 }

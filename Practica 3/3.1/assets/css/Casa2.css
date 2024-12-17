@@ -20,9 +20,7 @@ body > * {
 }
 
 .seccio1 {
-  display: flex;
-  padding: 2%;
-  font-size: 150%;
+  font-size: 110%;
 }
 
 .seccio2 {
@@ -78,4 +76,8 @@ footer {
 footer p {
   text-align: center;
   font-size: 150%;
+}
+
+.seccio1 img {
+  float: right;
 }

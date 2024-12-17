@@ -23,7 +23,6 @@ body > * {
   display: flex;
   padding: 2%;
   font-size: 150%;
-  flex-direction: row-reverse;
 }
 
 .seccio2 {
